@@ -48,7 +48,6 @@ button:focus {
   box-shadow: none
 }
 
-
 .btn {
   outline: 0;
   border-radius: 10rem;
@@ -95,15 +94,15 @@ button:focus {
 }
 
 .btn-primary {
-  background: 0 0;
+  background: var(--primary);
   color: #fff;
   border: 2px solid #fff
 }
 
 .btn-primary:focus,
 .btn-primary:hover {
-  background: var(--gradient-primary, --primary);
-  color: var(--secondary);
+  background: #b806db;
+  color: #fff;
   border: none
 }
 
